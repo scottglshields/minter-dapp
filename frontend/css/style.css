@@ -296,7 +296,7 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: var(--color-body-bg);
+  background-color: var(--color-body-text);
   border-radius: 5px;
 }
 
@@ -323,6 +323,7 @@ section {
 .input-number-decrement,
 .input-number-increment {
   user-select: none;
+  border: none;
 }
 
 .total-price-container {
