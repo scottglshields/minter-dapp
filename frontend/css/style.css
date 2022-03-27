@@ -6,15 +6,53 @@
 
 :root {
   --font-primary: "Poppins", sans-serif;
-  --font-secondary: "Arvo", serif;
-  --font-code: "Roboto", monospace;
+  --font-code: "Poppins", monospace;
   --bg-color: #222222;
-  --bg-color-transparent: #22222280;
+  --bg-color-transparent: #22222260;
   --font-color: #fbfbf8;
   --btn-bg-color: #be7efe;
   --accent-color: #fbfbf8;
-  --header-shadow: var(--accent-color) 0px 0px 5px;
+  --header-shadow: var(--accent-color) 0px 0px 4px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
+  
+  /* COLORS */
+  --black: #222;
+  --white: #fbfbf8;
+  --purple: #9370d8;
+  --gray: #d1d1d1;
+  --red: #d82626;
+  --blue: #1e90ff;
+
+  /* HEADER */
+  --color-header-bg: var(--black);
+  --color-header-text: var(--white);
+  --header-shadow: var(--purple) 0px 0px 4px;
+
+  /* BODY */
+  --color-body-bg: var(--black);
+  --color-body-text: var(--white);
+
+  /* BUTTON */
+  --color-button-bg: var(--purple);
+  --color-button-text: var(--white);
+  --button-shadow: ;
+
+  /* CARD */
+  --color-card-bg: var(--black);
+  --color-card-text: var(--white);
+  --card-shadow: var(--);
+  --card-border: var(--purple);
+  --color-countdown-bg: var(--purple);
+  --color-countdown-text: var(--white);
+  --color-countdown-shadow: var(--);
+
+  /* REEL */
+  --color-reel-bg: var(--);
+  --color-reel-text: var(--);
+  --color-reel-shadow1: var(--);
+  --color-reel-shadow2: var(--);
+  --color-reel-shadow3: var(--);
+
 }
 
 * {
@@ -24,11 +62,11 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: var(--color-body-bg);
   display: flex;
   flex-flow: column;
   height: 100vh;
-  color: var(--font-color);
+  color: var(--color-body-text);
   font-family: var(--font-primary);
 }
 
@@ -45,7 +83,8 @@ body {
 /* HEADER */
 
 header {
-  background-color: var(--bg-color);
+  background-color: var(--color-header-bg);
+  color: var(--color-header-text);
   box-shadow: var(--header-shadow);
 }
 
@@ -86,7 +125,7 @@ header .container {
 
 .not-connected p {
   font-size: 1.1rem;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   line-height: 1.8;
 }
 
@@ -102,16 +141,16 @@ header .container {
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: var(--btn-bg-color);
-  color: var(--accent-color);
-  font-family: var(--font-secondary);
-  font-style: italic;
+  background: var(--color-button-bg);
+  color: var(--color-button-text);
+  font-family: var(--font-primary);
+  font-style: normal;
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: var(--header-shadow);
+  box-shadow: var(--button-shadow);
   cursor: pointer;
   position: relative;
   text-decoration: none;
@@ -140,10 +179,11 @@ header .container {
 
 .card {
   position: relative;
-  background-color: var(--bg-color);
+  background-color: var(--color-card-bg);
   border-radius: 5px;
-  border: 3px solid var(--accent-color);
+  border: 3px solid var(--card-border);
   box-shadow: var(--card-shadow);
+  color: var(--color-card-text);
   padding: 5rem;
   margin-bottom: 2rem;
   opacity: 0;
@@ -184,11 +224,11 @@ section {
   height: auto;
 }
 .countdown .clock-item .count-number {
-  background: var(--accent-color);
-  color: var(--font-color);
+  background: var(--color-countdown-bg);
+  color: var(--color-countdown-text);
   font-size: 2rem;
   font-weight: 700;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   padding: 1rem;
   display: inline-block;
   width: 100%;
@@ -197,10 +237,10 @@ section {
   border-radius: 4px 4px 0 0;
 }
 .countdown .clock-item .count-text {
-  background: var(--btn-bg-color);
-  font-family: var(--font-secondary);
+  background: var(--color-countdown-bg);
+  font-family: var(--font-primary);
   font-size: 1.1rem;
-  color: var(--bg-color);
+  color: var(--color-countdown-text);
   padding: 0.5rem 0.7rem;
   display: inline-block;
   width: 100%;
@@ -210,7 +250,7 @@ section {
 }
 
 .countdown h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--color-countdown-text);
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
@@ -223,7 +263,7 @@ section {
 
 .countdown > p {
   font-size: 1.1rem;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   margin-bottom: 2rem;
   text-align: center;
 }
