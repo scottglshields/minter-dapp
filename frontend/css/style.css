@@ -24,16 +24,7 @@
   --blue: #1e90ff;
 
   /* GRADIENTS */
-  --gradient-29: radial-gradient(
-			circle at top right,
-			hsl(250 100% 85%),
-			hsl(250 100% 85% / 0%)
-		),
-		radial-gradient(
-			circle at bottom left,
-			hsl(220 90% 75%),
-			hsl(220 90% 75% / 0%)
-		);
+  
 
   /* HEADER */
   --color-header-bg: var(--black);
@@ -45,7 +36,7 @@
   --color-body-text: var(--white);
 
   /* BUTTON */
-  --color-button-bg: var(--gradient-29);
+  --color-button-bg: var(--purple);
   --color-button-text: var(--white);
   --button-shadow: ;
 
