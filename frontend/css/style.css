@@ -38,7 +38,7 @@
   /* BUTTON */
   --color-button-bg: var(--purple);
   --color-button-text: var(--white);
-  --button-shadow: ;
+  --button-shadow: none;
 
   /* CARD */
   --color-card-bg: var(--black);
@@ -156,6 +156,7 @@ header .container {
   position: relative;
   text-decoration: none;
   outline: none;
+  border: none;
 }
 .btn:hover {
   box-shadow: none;
