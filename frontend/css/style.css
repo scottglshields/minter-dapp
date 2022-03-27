@@ -12,7 +12,6 @@
   --font-color: #fbfbf8;
   --btn-bg-color: #be7efe;
   --accent-color: #fbfbf8;
-  --header-shadow: var(--accent-color) 0px 0px 4px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
   
   /* COLORS */
@@ -40,19 +39,18 @@
   /* CARD */
   --color-card-bg: var(--black);
   --color-card-text: var(--white);
-  --card-shadow: var(--);
+  --card-shadow: var(--purple) 0px 0px 20px;
   --card-border: var(--purple);
   --color-countdown-bg: var(--purple);
   --color-countdown-text: var(--white);
   --color-countdown-shadow: var(--);
 
-  /* REEL */
-  --color-reel-bg: var(--);
-  --color-reel-text: var(--);
-  --color-reel-shadow1: var(--);
-  --color-reel-shadow2: var(--);
-  --color-reel-shadow3: var(--);
-
+  /* SLIDER */
+  --color-slider-bg: var(--);
+  --color-slider-text: var(--);
+  --color-slider-shadow1: var(--);
+  --color-slider-shadow2: var(--);
+  --color-slider-shadow3: var(--);
 }
 
 * {
