@@ -2,7 +2,7 @@ const contractAddress = "0x810Fa149796C9151214F00df29d0F26F73Abf481"; //Replace 
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the" <br> "Narwhal Fight Club NFT Project!!";
-const welcome_h2 = "Connect to MetaMask to get started";
+const welcome_h2 = "Connect to MetaMask to get started 👆🏼";
 const welcome_p = "Every year, narwhals gather near and far for an occasion of epic proportion. A club so magnificent that we shall not speak its name! They bring everything they have of value to the gathering and submit their name for a chance to be the NOM (Narwhal Ocean Master).";
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
