@@ -55,7 +55,7 @@
   --color-slider-border: var(--purple);
   --color-slider-shadow: var(--);
  }
-
+/*
 * {
   padding: 0;
   margin: 0;
@@ -70,6 +70,42 @@ body {
   color: var(--color-body-text);
   font-family: var(--font-primary);
 }
+*/
+
+
+
+
+
+
+:after,
+:before {
+	border: 0 solid #e5e7eb;
+	box-sizing: border-box;
+}
+:after,
+:before {
+	--tw-content: "";
+}
+html {
+	-webkit-text-size-adjust: 100%;
+	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+		Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+		Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+}
+body {
+	line-height: inherit;
+	margin: 0;
+}
+
+
+
+
+
+
 
 .container {
   display: flex;
@@ -457,6 +493,7 @@ section {
 
 h1 span {
   color: var(--purple);
+  font-size: 3.65rem;
 }
 
 
