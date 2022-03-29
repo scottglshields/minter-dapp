@@ -165,9 +165,7 @@ header .container {
   outline: none;
   border: none;
 }
-.btn:hover {
-  box-shadow: none;
-}
+
 .btn:disabled {
   cursor: default;
 }
