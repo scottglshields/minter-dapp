@@ -681,7 +681,7 @@ button:hover {
 	max-width: 28rem;
 	width: 100%;
 }
-#minting-dapp .no-wallet {
+#minting-dapp .no-wallet, .not-connected {
 	--tw-bg-opacity: 1;
 	--tw-border-opacity: 1;
 	--tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
