@@ -101,6 +101,10 @@ header .container {
   align-items: center;
 }
 
+.menu a:hover {
+  color: var(--purple);
+  transform: scale(1.125);
+}
 
 
 /* NOT CONNECTED */
@@ -171,6 +175,8 @@ header .container {
   border-radius: 5rem;
   margin-left: 2rem;
   border-color: transparent;
+  transform: scale(1.025);
+
 }
 
 .hero-btn {
