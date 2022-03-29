@@ -176,11 +176,11 @@ header .container {
   border-radius: 5rem;
   margin-left: 2rem;
   border-color: transparent;
+  transition: .3s all;
 }
 
 .wallet-btn:hover {
   transform: scale(1.025);
-
 }
 
 .hero-btn {
